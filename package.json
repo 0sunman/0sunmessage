@@ -1,0 +1,14 @@
+{
+  "name": "0sunm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/0sunman/0sunmessage.git",
+  "author": "1807869 <yysun2000@thehyundai.com>",
+  "license": "MIT",
+  "private":true, 
+  "workspaces":["client", "server"],
+  "scripts":{
+    "client":"yarn workspace client start",
+    "server":"yarn workspace server start"
+  }
+}
